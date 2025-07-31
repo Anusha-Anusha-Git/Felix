@@ -16,35 +16,64 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+           <nav class="navbar navbar-expand-lg" style="background-color:#141414;">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
-                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
-                                </ul>
-                            </li>
+                  <a class="navbar-brand" href="index.html" style="color:#1d5e33; font-weight:700; font-size:1.5rem; letter-spacing:1px;">Felix</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" 
+                    style="border-color:#1d5e33;">
+                    <span class="navbar-toggler-icon" style="filter: invert(42%) sepia(57%) saturate(292%) hue-rotate(99deg) brightness(91%) contrast(85%);"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-weight:600;">
+                      <li class="nav-item"><a class="nav-link" href="index.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="about.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Contact</a></li>
+                      <li class="nav-item"><a class="nav-link" href="pricing.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Pricing</a></li>
+                      <li class="nav-item"><a class="nav-link" href="faq.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">FAQ</a></li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" 
+                          style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Blog</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog" style="background:#141414; border:none;">
+                          <li><a class="dropdown-item" href="blog-home.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Blog Home</a></li>
+                          <li><a class="dropdown-item" href="blog-post.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Blog Post</a></li>
                         </ul>
-                    </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" 
+                          style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Portfolio</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio" style="background:#141414; border:none;">
+                          <li><a class="dropdown-item" href="portfolio-overview.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Portfolio Overview</a></li>
+                          <li><a class="dropdown-item" href="portfolio-item.html" style="color:#b3b3b3; transition: background-color 0.3s, color 0.3s;">Portfolio Item</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-            </nav>
+              
+                <style>
+                  /* Navbar link hover: green bg, white text */
+                  .nav-link:hover, 
+                  .nav-link:focus {
+                    background-color: #1d5e33 !important;
+                    color: #fff !important;
+                    border-radius: 4px;
+                    text-decoration: none;
+                  }
+              
+                  /* Dropdown item hover: green bg, white text */
+                  .dropdown-item:hover, 
+                  .dropdown-item:focus {
+                    background-color: #1d5e33 !important;
+                    color: #fff !important;
+                  }
+              
+                  /* Navbar toggler hover */
+                  .navbar-toggler:hover {
+                    border-color: #1d5e33 !important;
+                  }
+                </style>
+              </nav>
             <!-- Header-->
             <header class="bg-dark py-5">
                 <div class="container px-5">
